@@ -7,10 +7,10 @@
   pointer-events: none;
 }
 
-div {
+/* div {
   border: 1px solid;
 
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -40,4 +40,15 @@ div {
   to {
     transform: rotate(360deg);
   }
+}
+
+.cardsLayout {
+border: 1px solid black;
+width: 50vh;
+
+}
+
+.container {
+  display: flex;
+  
 }
